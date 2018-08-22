@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="ZeusInsp.exe"/>
+    <OBJFILES value="ZeusInsp.obj Jog.obj Password.obj Splash.obj Init.obj Maint.obj Extern.obj 
+      DataClass.obj WorkProcess.obj InitProcess.obj MotionBase.obj WorkSetup.obj 
+      Prepare.obj MeasProcess.obj ComidasLX.obj Msg.obj Main.obj IOPort.obj 
+      DataView.obj Comidas.obj SysSetup.obj RunChk.obj SecsGem.obj 
+      ProcessThread.obj ConstDefine.obj Debug.obj SystemErrorView.obj 
+      DM_Common.obj SubmapViwer.obj"/>
+    <RESFILES value="ZeusInsp.res"/>
+    <IDLFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Jog.dfm Password.dfm Splash.dfm Init.dfm Maint.dfm 
+      WorkSetup.dfm Prepare.dfm Msg.dfm Main.dfm DataView.dfm SysSetup.dfm 
+      SecsGem.dfm Debug.dfm SystemErrorView.dfm DM_Common.dfm SubmapViwer.dfm"/>
+    <LIBFILES value="comidaslx.lib CrevisFnIO.lib ProtecDll.lib"/>
+    <LIBRARIES value="ZBldr179C6.lib CPortLibCB6.lib ZBldr190C6.lib RaizeComponentsVcl.lib 
+      lmdrtcore.lib lmdrtrtlx.lib lmdrtl.lib teedb.lib teeui.lib dclocx.lib 
+      nmfast.lib tee.lib bcbsmp.lib DCLUSR.lib vcldbx.lib bdertl.lib vcldb.lib 
+      dbrtl.lib vclx.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib vclx.lib dbrtl.lib vcldb.lib bdertl.lib vcldbx.lib 
+      DCLUSR.lib bcbsmp.lib tee.lib nmfast.lib dclocx.lib teeui.lib teedb.lib 
+      lmdrtl.lib lmdrtrtlx.lib lmdrtcore.lib RaizeComponentsVcl.lib 
+      ZBldr190C6.lib CPortLibCB6.lib ZBldr179C6.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi bcbsmp.bpi qrpt.bpi dbrtl.bpi vcldb.bpi 
+      bdertl.bpi ibsmp.bpi vcldbx.bpi teeui.bpi teedb.bpi tee.bpi teeqr.bpi 
+      bcb2kaxserver.bpi bcbie.bpi vclie.bpi inetdb.bpi inet.bpi dclocx.bpi 
+      DCLUSR.bpi ibxpress.bpi nmfast.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="WINDOWS;_STRICT;_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="ZeusInsp.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Program Files\Borland\CBuilder6\Projects\CPort264\Source&quot;;&quot;C:\Program Files\Borland\CBuilder6\Projects\CPort264&quot;;&quot;C:\Program Files\Borland\CBuilder6\Projects\ZipBuilder&quot;;C:\LMD2013\lib\b6;&quot;C:\Program Files\Raize\RC4\Lib\BCB6&quot;;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;$(BCB)\Imports;$(BCB)\include;$(BCB)\include\vcl;&quot;C:\Program Files\Euresys\eVision\Include&quot;"/>
+    <LIBPATH value="&quot;C:\Program Files\Borland\CBuilder6\Projects\CPort264\Source&quot;;&quot;C:\Program Files\Borland\CBuilder6\Projects\CPort264&quot;;&quot;C:\Program Files\Borland\CBuilder6\Projects\ZipBuilder&quot;;..\pro800(130812)\Debug;C:\LMD2013\lib\b6;&quot;C:\Program Files\Raize\RC4\Lib\BCB6&quot;;$(BCB)\Imports;$(BCB)\Projects\Lib;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;$(BCB)\lib\obj;$(BCB)\lib;&quot;C:\Program Files\Euresys\eVision\BcB6&quot;"/>
+    <WARNINGS value="-w-pck -w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a4 -b- -k -y -v -vi- -c 
+      -tWM"/>
+    <CFLAG2 value=""/>
+    <CFLAG3 value=""/>
+    <PFLAGS value="-AWinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE 
+      -$Y+ -$W -$S -$R -$Q -$O- -$A8 -v -JPHNV -M -JPHNE"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -GD -s -w -v"/>
+    <IFLAGS value=""/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="ZeusInsp.cpp" FORMNAME="" UNITNAME="ZeusInsp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ZeusInsp.res" FORMNAME="" UNITNAME="ZeusInsp.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Jog.cpp" FORMNAME="JogForm" UNITNAME="Jog" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Password.cpp" FORMNAME="PasswordForm" UNITNAME="Password" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Splash.cpp" FORMNAME="SplashForm" UNITNAME="Splash" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Init.cpp" FORMNAME="InitForm" UNITNAME="Init" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Maint.cpp" FORMNAME="MaintForm" UNITNAME="Maint" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Extern.cpp" FORMNAME="" UNITNAME="Extern" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DataClass.cpp" FORMNAME="" UNITNAME="DataClass" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WorkProcess.cpp" FORMNAME="" UNITNAME="WorkProcess" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="InitProcess.cpp" FORMNAME="" UNITNAME="InitProcess" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MotionBase.cpp" FORMNAME="" UNITNAME="MotionBase" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WorkSetup.cpp" FORMNAME="WorkSetupForm" UNITNAME="WorkSetup" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Prepare.cpp" FORMNAME="PrepareForm" UNITNAME="Prepare" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MeasProcess.cpp" FORMNAME="" UNITNAME="MeasProcess" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ComidasLX.cpp" FORMNAME="" UNITNAME="ComidasLX" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Msg.cpp" FORMNAME="MsgDlg" UNITNAME="Msg" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Main.cpp" FORMNAME="MainForm" UNITNAME="Main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="IOPort.cpp" FORMNAME="" UNITNAME="IOPort" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DataView.cpp" FORMNAME="DataViewForm" UNITNAME="DataView" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="comidaslx.lib" FORMNAME="" UNITNAME="comidaslx" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Comidas.cpp" FORMNAME="" UNITNAME="Comidas" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SysSetup.cpp" FORMNAME="SysSetupForm" UNITNAME="SysSetup" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RunChk.cpp" FORMNAME="" UNITNAME="RunChk" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SecsGem.cpp" FORMNAME="SecsGemForm" UNITNAME="SecsGem" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ProcessThread.cpp" FORMNAME="" UNITNAME="ProcessThread" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CrevisFnIO.lib" FORMNAME="" UNITNAME="CrevisFnIO.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ConstDefine.cpp" FORMNAME="" UNITNAME="ConstDefine" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ProtecDll.lib" FORMNAME="" UNITNAME="ProtecDll.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Debug.cpp" FORMNAME="DebugForm" UNITNAME="Debug" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SystemErrorView.cpp" FORMNAME="SystemErrorViewForm" UNITNAME="SystemErrorView" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DM_Common.cpp" FORMNAME="DM_Co" UNITNAME="DM_Common" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="SubmapViwer.cpp" FORMNAME="FormSubMapViewer" UNITNAME="SubmapViwer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=1
+MinorVer=0
+Release=0
+Build=671
+Debug=1
+PreRelease=1
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.671
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+
+[HistoryLists\hlIncludePath]
+Count=11
+Item0=C:\Program Files\Borland\CBuilder6\Projects\CPort264\Source;C:\Program Files\Borland\CBuilder6\Projects\CPort264;C:\Program Files\Borland\CBuilder6\Projects\ZipBuilder;C:\LMD2013\lib\b6;C:\Program Files\Raize\RC4\Lib\BCB6;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Imports;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Euresys\eVision\Include
+Item1=C:\Program Files\Borland\CBuilder6\Projects\CPort264\Source;C:\Program Files\Borland\CBuilder6\Projects\ZipBuilder;C:\Program Files\Borland\CBuilder6\Projects\CPort264;C:\LMD2013\lib\b6;C:\Program Files\Raize\RC4\Lib\BCB6;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Imports;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Euresys\eVision\Include
+Item2=C:\Program Files\Borland\CBuilder6\Projects\ZipBuilder;C:\Program Files\Borland\CBuilder6\Projects\CPort264\Sources;C:\Program Files\Borland\CBuilder6\Projects\CPort264;C:\LMD2013\lib\b6;C:\Program Files\Raize\RC4\Lib\BCB6;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Imports;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Euresys\eVision\Include
+Item3=C:\Program Files\Borland\CBuilder6\Projects\ZipBuilder;C:\Program Files\Borland\CBuilder6\Projects\CPort264\Sources;C:\Program Files\Borland\CBuilder6\Projects\CPort264;C:\LMD2013\lib\b6;$(BCB)\Imports;C:\Program Files\Raize\RC4\Lib\BCB6;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Euresys\eVision\Include
+Item4=C:\Program Files\Borland\CBuilder6\Projects\CPort264\Sources;C:\LMD2013\lib\b6;$(BCB)\Imports;C:\Program Files\Raize\RC4\Lib\BCB6;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Euresys\eVision\Include;C:\Program Files\Borland\CBuilder6\Projects\ZipBuilder
+Item5=C:\LMD2013\lib\b6;$(BCB)\Imports;C:\Program Files\Raize\RC4\Lib\BCB6;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Euresys\eVision\Include;C:\Program Files\Borland\CBuilder6\Projects\ZipBuilder
+Item6=C:\LMD2013\lib\b6;$(BCB)\Imports;C:\Program Files\Raize\RC4\Lib\BCB6;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Euresys\eVision\Include;C:\Program Files\Borland\CBuilder6\Projects\ZipBuilder;C:\Program Files\Borland\CBuilder6\Projects\CPort264;C:\Program Files\Borland\CBuilder6\Projects\CPort264\Sources
+Item7=C:\LMD2013\lib\b6;$(BCB)\Imports;C:\Program Files\Raize\RC4\Lib\BCB6;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Euresys\eVision\Include;C:\Program Files\Borland\CBuilder6\Projects\ZipBuilder;C:\Program Files\Borland\CBuilder6\Projects\CPort264
+Item8=Debug;C:\LMD2013\lib\b6;$(BCB)\Imports;C:\Program Files\Raize\RC4\Lib\BCB6;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Euresys\eVision\Include;C:\Program Files\Borland\CBuilder6\Projects\ZipBuilder
+Item9=Debug;..\pro800(130812)\Debug;C:\LMD2013\lib\b6;$(BCB)\Imports;C:\Program Files\Raize\RC4\Lib\BCB6;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Euresys\eVision\Include
+Item10=C:\LMD2013\lib\b6;$(BCB)\Imports;C:\Program Files\Raize\RC4\Lib\BCB6;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Euresys\eVision\Include
+
+[HistoryLists\hlLibraryPath]
+Count=12
+Item0=C:\Program Files\Borland\CBuilder6\Projects\CPort264\Source;C:\Program Files\Borland\CBuilder6\Projects\CPort264;C:\Program Files\Borland\CBuilder6\Projects\ZipBuilder;..\pro800(130812)\Debug;C:\LMD2013\lib\b6;C:\Program Files\Raize\RC4\Lib\BCB6;$(BCB)\Imports;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\Euresys\eVision\BcB6
+Item1=C:\Program Files\Borland\CBuilder6\Projects\CPort264;C:\Program Files\Borland\CBuilder6\Projects\CPort264\Sources;C:\Program Files\Borland\CBuilder6\Projects\ZipBuilder;..\pro800(130812)\Debug;C:\LMD2013\lib\b6;C:\Program Files\Raize\RC4\Lib\BCB6;$(BCB)\Imports;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\Euresys\eVision\BcB6
+Item2=C:\Program Files\Borland\CBuilder6\Projects\CPort264;C:\Program Files\Borland\CBuilder6\Projects\CPort264\Sources;C:\Program Files\Borland\CBuilder6\Projects\ZipBuilder;..\pro800(130812)\Debug;C:\LMD2013\lib\b6;$(BCB)\Imports;C:\Program Files\Raize\RC4\Lib\BCB6;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\Euresys\eVision\BcB6
+Item3=C:\Program Files\Borland\CBuilder6\Projects\CPort264\;C:\Program Files\Borland\CBuilder6\Projects\CPort264\Sources;C:\Program Files\Borland\CBuilder6\Projects\ZipBuilder;..\pro800(130812)\Debug;C:\LMD2013\lib\b6;$(BCB)\Imports;C:\Program Files\Raize\RC4\Lib\BCB6;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\Euresys\eVision\BcB6
+Item4=C:\Program Files\Borland\CBuilder6\Projects\CPort264\Sources;..\pro800(130812)\Debug;C:\LMD2013\lib\b6;$(BCB)\Imports;C:\Program Files\Raize\RC4\Lib\BCB6;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\Euresys\eVision\BcB6;C:\Program Files\Borland\CBuilder6\Projects\ZipBuilder
+Item5=..\pro800(130812)\Debug;C:\LMD2013\lib\b6;$(BCB)\Imports;C:\Program Files\Raize\RC4\Lib\BCB6;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\Euresys\eVision\BcB6;C:\Program Files\Borland\CBuilder6\Projects\ZipBuilder
+Item6=..\pro800(130812)\Debug;C:\LMD2013\lib\b6;$(BCB)\Imports;C:\Program Files\Raize\RC4\Lib\BCB6;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\Euresys\eVision\BcB6;C:\Program Files\Borland\CBuilder6\Projects\CPort264;C:\Program Files\Borland\CBuilder6\Projects\CPort264\Sources;C:\Program Files\Borland\CBuilder6\Projects\ZipBuilder
+Item7=..\pro800(130812)\Debug;C:\LMD2013\lib\b6;$(BCB)\Imports;C:\Program Files\Raize\RC4\Lib\BCB6;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\Euresys\eVision\BcB6;C:\Program Files\Borland\CBuilder6\Projects\CPort264;C:\Program Files\Borland\CBuilder6\Projects\CPort264\Sources
+Item8=..\pro800(130812)\Debug;C:\LMD2013\lib\b6;$(BCB)\Imports;C:\Program Files\Raize\RC4\Lib\BCB6;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\Euresys\eVision\BcB6;C:\Program Files\Borland\CBuilder6\Projects\CPort264
+Item9=..\pro800(130812)\Debug;C:\LMD2013\lib\b6;$(BCB)\Imports;C:\Program Files\Raize\RC4\Lib\BCB6;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\Euresys\eVision\BcB6
+Item10=Debug;..\pro800(130812)\Debug;C:\LMD2013\lib\b6;$(BCB)\Imports;C:\Program Files\Raize\RC4\Lib\BCB6;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\Euresys\eVision\BcB6
+Item11=C:\LMD2013\lib\b6;$(BCB)\Imports;C:\Program Files\Raize\RC4\Lib\BCB6;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\Euresys\eVision\BcB6
+
+[HistoryLists\hlConditionals]
+Count=4
+Item0=WINDOWS;_STRICT;_DEBUG
+Item1=WINDOWS;_STRICT
+Item2=_DEBUG;WINDOWS;_STRICT
+Item3=_DEBUG
+
+[HistoryLists\hlUnitAliases]
+Count=1
+Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE
+
+[HistoryLists\hlFinalOutputDir]
+Count=2
+Item0=D:\ZeusInsp_data\
+Item1=D:\ZeusInsp_data
+
+[Debugging]
+DebugSourceDirs=
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=1
+  </IDEOPTIONS>
+</PROJECT>

@@ -1,0 +1,21 @@
+EXPORT_API void _pvInitialize(long nWndPoLeft, long nWndPoTop, long nWndPoRight, long nWndPoBottom); //비젼 창 초기화
+EXPORT_API void _pvCloseVisionMainDlg(); //비젼 창 닫기
+EXPORT_API void _pvMoveDlg(long nWndPoLeft, long nWndPoTop, long nWndPoRight, long nWndPoBottom);//비젼 창 이동
+EXPORT_API void	_pvShowMode(long nShowMode);
+//#define SHOWMODE_SETUP		1
+//#define SHOWMODE_RUN		2
+//#define SHOWMODE_CALTEACH	3
+EXPORT_API void	_pvAllWindowHide();//비젼 창 감춤
+
+EXPORT_API void _pvSignal_Reset();//운영 도중 중단 했을 때 검사 리셋
+EXPORT_API bool _pvJobChange(int nCamIndex, char *chJobName);//Job 체인지
+EXPORT_API void _pvInspChange(int nCamIndex, int nInspIndex, int nInspMode);//Inspecion 모드 변경 - Dispenser Inspection에서는 의미 없음
+EXPORT_API void _pvMachineState(bool bIsRun);/상태확인
+EXPORT_API void _pvSetCalibration(int nCamIndex, double dRealDistanceX, double dRealDistanceY);//좌표 캘리브레이션
+EXPORT_API void _pvSetCallResult(int nCamIndex, int(*pResultCall)(char *chInspResult, LPVOID pParam), LPVOID pWnd);//검사 결과 호출
+EXPORT_API void _pvSetCallGrabEnd(int nCamIndex, int(*pGrabEndCall)(LPVOID pParam), LPVOID pWnd);//Grab End 호출
+EXPORT_API void _pvSetCallMotionMoving(int nCamIndex, void(*pMotionMovingCall)(double dXAxisValue, double dYAxisValue, LPVOID pParam), LPVOID pWnd);//모션이동
+EXPORT_API void _pvSetCallLightOn(int nCamIndex, void(*pLightOnCall)(int nLightChannel, int nOn, LPVOID pParam), LPVOID pWnd);//라이트 온,오프
+EXPORT_API void _pvSetCallLightValue(int nCamIndex, void(*pLightValueCall)(int nLightChannel, int nValue, LPVOID pParam), LPVOID pWnd);//라이트 밸류셋팅
+EXPORT_API void _pvSetCallRequestJobName(int nCamIndex, bool(*pRequestJobNameCall)(LPVOID pParam), LPVOID pWnd);//Job 이름 요청
+EXPORT_API void _pvSWTrigger(int nCamIndex);//S/W트리거 사용

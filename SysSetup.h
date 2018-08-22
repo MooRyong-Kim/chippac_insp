@@ -1,0 +1,466 @@
+//---------------------------------------------------------------------------
+
+#ifndef SysSetupH
+#define SysSetupH
+//---------------------------------------------------------------------------
+#include <Buttons.hpp>
+#include <Chart.hpp>
+#include <CheckLst.hpp>
+#include <Classes.hpp>
+#include <ComCtrls.hpp>
+#include <Controls.hpp>
+#include <ExtCtrls.hpp>
+#include <Forms.hpp>
+#include <ImgList.hpp>
+#include <Menus.hpp>
+#include <Series.hpp>
+#include <StdCtrls.hpp>
+#include <TeeFunci.hpp>
+#include <TeEngine.hpp>
+#include <TeeProcs.hpp>
+#include <ToolWin.hpp>
+#include <axctrls.hpp>
+#include "LMDBaseEdit.hpp"
+#include "LMDControl.hpp"
+#include "LMDCustomBevelPanel.hpp"
+#include "LMDCustomControl.hpp"
+#include "LMDCustomEdit.hpp"
+#include "LMDCustomExtSpinEdit.hpp"
+#include "LMDCustomMaskEdit.hpp"
+#include "LMDCustomPanel.hpp"
+#include "LMDSpinEdit.hpp"
+#include <Dialogs.hpp>
+#include "RzButton.hpp"
+#include "RzTabs.hpp"
+#include "RzLine.hpp"
+//---------------------------------------------------------------------------
+class TSysSetupForm : public TForm
+{
+__published:	// IDE-managed Components
+    TPanel *Panel5;
+    TImageList *TreeViewImageList;
+    TPanel *Panel1;
+    TPanel *ModifyTimePanel;
+    TPanel *FileNamePanel;
+    TTimer *TickTimer;
+    TPanel *SetupTreeViewPanel;
+    TCoolBar *CoolBar1;
+    TToolBar *ToolBar;
+    TSpeedButton *FileSaveBtn;
+    TSpeedButton *CancelBtn;
+    TToolButton *ToolButton1;
+    TSpeedButton *CloseBtn;
+    TTreeView *SetupTreeView;
+    TOpenDialog *OpenDialog1;
+    TSaveDialog *SaveDialog1;
+    TPageControl *PageControl1;
+    TTabSheet *TabSheet2;
+    TTabSheet *TabSheet3;
+    TTabSheet *TabSheet4;
+    TPageControl *OprPageCtrl;
+    TTabSheet *OperPage0;
+    TPanel *Panel4;
+    TTabSheet *OprPage1;
+    TPanel *Panel7;
+    TRadioGroup *UnitVsnErrSetRdoGrp;
+    TGroupBox *GroupBox5;
+    TLabel *Label8;
+    TCheckBox *MsgBoxBuzzChkBox;
+    TLMDSpinEdit *MsgBoxBuzzTimeSpinEdit;
+    TGroupBox *PkgIdxDelaySetGrpBox;
+    TLabel *Label7;
+    TLabel *Label66;
+    TLabel *Label67;
+    TLabel *Label31;
+    TLabel *Label13;
+    TLabel *Label23;
+    TLMDSpinEdit *TransferDlySpinEdit;
+    TLMDSpinEdit *UnloadingDlySpinEdit;
+    TLMDSpinEdit *UlPusherOnDlySpinEdit;
+    TLMDSpinEdit *StprUpDlySpinEdit;
+    TLMDSpinEdit *BlkVacOffDlySpinEdit;
+    TLMDSpinEdit *BlkUpDlySpinEdit;
+    TGroupBox *GroupBox7;
+    TLabel *Label93;
+    TLabel *Label22;
+    TLabel *Label92;
+    TCheckBox *InspErrCollectChkBox;
+    TLMDSpinEdit *VsnAutoRtyCntSpinEdit;
+    TLMDSpinEdit *InspDlySpinEdit;
+    TLMDSpinEdit *SpinBcrRetryCnt;
+    TPageControl *EngPageCtrl;
+    TTabSheet *EngPage0;
+    TPanel *Panel2;
+    TTabSheet *EngPage1;
+    TPanel *Panel8;
+    TGroupBox *GroupBox89;
+    TStaticText *StaticText1;
+    TStaticText *StaticText2;
+    TEdit *OprPswdChangeEdit;
+    TEdit *OprPswdConfirmEdit;
+    TBitBtn *OprPswdSetBtn;
+    TGroupBox *GroupBox3;
+    TCheckListBox *SysLogItemChkListBox;
+    TPanel *Panel9;
+    TStaticText *StaticText5;
+    TComboBox *TwrLmpComboBox;
+    TGroupBox *GroupBox11;
+    TRadioGroup *GrnLmpRdoGrp;
+    TLMDSpinEdit *GrnLmpFlashTimeSpinEdit;
+    TRadioGroup *YlwLmpRdoGrp;
+    TRadioGroup *RedLmpRdoGrp;
+    TLMDSpinEdit *YlwLmpFlashTimeSpinEdit;
+    TLMDSpinEdit *RedLmpFlashTimeSpinEdit;
+    TCheckBox *BuzzChkBox;
+    TCheckBox *UseBuzzValidTimeChkBox;
+    TLMDSpinEdit *BuzzValidTimeSpinEdit;
+    TGroupBox *GroupBox90;
+    TStaticText *StaticText7;
+    TStaticText *StaticText8;
+    TEdit *EngPswdChangeEdit;
+    TEdit *EngPswdConfirmEdit;
+    TBitBtn *EngPswdSetBtn;
+    TGroupBox *GroupBox20;
+    TLabel *Label71;
+    TLMDSpinEdit *FileValidDaySpinEdit;
+    TGroupBox *GroupBox41;
+    TStaticText *StaticText3;
+    TStaticText *StaticText4;
+    TEdit *WorkPswdChangeEdit;
+    TEdit *WorkPswdConfirmEdit;
+    TBitBtn *WorkPswdSetBtn;
+    TTabSheet *TabSheet1;
+    TPanel *Panel10;
+    TGroupBox *GroupBox122;
+    TLabel *Label173;
+    TLabel *Label185;
+    TLabel *Label30;
+    TLabel *Label14;
+    TLMDSpinEdit *CylTimeErrSpinEdit;
+    TLMDSpinEdit *ComTimeErrSpinEdit;
+    TLMDSpinEdit *CvyTimeErrSpinEdit;
+    TLMDSpinEdit *BlkVacTimeErrSpinEdit;
+    TGroupBox *GroupBox1;
+    TCheckBox *SafetySrvOffChkBox;
+    TGroupBox *SafetySensGrpBox;
+    TCheckBox *UlBarSafetyChkBox;
+    TCheckBox *FrntDoorSafetyChkBox;
+    TCheckBox *UvDoorSafetyChkBox;
+    TGroupBox *GroupBox23;
+    TLabel *Label37;
+    TCheckBox *NoUseInspBlkVacErrChkBox;
+    TCheckBox *NoUseInspBlkVacOnChkBox;
+    TCheckBox *NoUseInspBlkChkBox;
+    TLMDSpinEdit *InspBlkVacRtyNumSpinEdit;
+    TCheckBox *UseClampChkBox;
+    TCheckBox *ChkHeaterAlarm;
+    TTabSheet *EngPage4;
+    TRzPageControl *LdUlSetupPageCtrl;
+    TRzTabSheet *RzTabSheet1;
+    TGroupBox *PkgMgzUlSetGrpBox;
+    TCheckBox *PkgUlAlarmChkBox;
+    TGroupBox *PkgUM1SetGrpBox;
+    TLabel *Label216;
+    TLabel *Label217;
+    TEdit *UlMgz1StartPosEdit;
+    TEdit *UlMgz1EndPosEdit;
+    TCheckBox *UlMgz1UseChkBox;
+    TRzBitBtn *UlMgz1StartPosGetBtn;
+    TRzBitBtn *UlMgz1StartPosGoBtn;
+    TRzBitBtn *UlMgz1EndPosGetBtn;
+    TRzBitBtn *UlMgz1EndPosGoBtn;
+    TGroupBox *PkgUM2SetGrpBox;
+    TLabel *Label214;
+    TLabel *Label215;
+    TEdit *UlMgz2StartPosEdit;
+    TEdit *UlMgz2EndPosEdit;
+    TCheckBox *UlMgz2UseChkBox;
+    TRzBitBtn *UlMgz2StartPosGetBtn;
+    TRzBitBtn *UlMgz2StartPosGoBtn;
+    TRzBitBtn *UlMgz2EndPosGetBtn;
+    TRzBitBtn *UlMgz2EndPosGoBtn;
+    TGroupBox *PkgUM3SetGrpBox;
+    TLabel *Label218;
+    TLabel *Label219;
+    TEdit *UlMgz3StartPosEdit;
+    TEdit *UlMgz3EndPosEdit;
+    TCheckBox *UlMgz3UseChkBox;
+    TRzBitBtn *UlMgz3StartPosGetBtn;
+    TRzBitBtn *UlMgz3StartPosGoBtn;
+    TRzBitBtn *UlMgz3EndPosGetBtn;
+    TRzBitBtn *UlMgz3EndPosGoBtn;
+    TGroupBox *GroupBox2;
+    TLabel *Label4;
+    TCheckBox *CheckBox1;
+    TCheckBox *UseRejMgzChkBox;
+    TLMDSpinEdit *RejMgzSelSpinEdit;
+    TPanel *HTypeUlMgzPosPanel;
+    TPanel *HTypeUlSetPanel;
+    TGroupBox *GroupBox30;
+    TLabel *Label128;
+    TLabel *Label153;
+    TEdit *UlMgzStartYPosEdit;
+    TEdit *UlMgzStartZPosEdit;
+    TRzBitBtn *UlMgzStartPosGetBtn;
+    TRzBitBtn *UlMgzStartPosGoBtn;
+    TGroupBox *GroupBox36;
+    TLabel *Label160;
+    TCheckBox *CheckBox2;
+    TEdit *UlMgzEndZPosEdit;
+    TRzBitBtn *UlMgzEndZPosGetBtn;
+    TRzBitBtn *UlMgzEndZPosGoBtn;
+    TGroupBox *GroupBox48;
+    TCheckBox *CheckBox4;
+    TCheckBox *UseUlPushJamChkBox;
+    TCheckBox *UlErrMcStopChkBox;
+    TGroupBox *GroupBox33;
+    TBitBtn *m_SaveSettings;
+    TBitBtn *m_LoadSettings;
+    TPanel *LdFileNamePnl;
+    TPanel *Panel6;
+    TLabel *Label21;
+    TLMDSpinEdit *UlMgzSlotNumSpinEdit;
+    TRzTabSheet *RzTabSheet2;
+    TLabel *Label24;
+    TLabel *Label25;
+    TRzLine *RzLine1;
+    TRzLine *RzLine2;
+    TGroupBox *GroupBox26;
+    TLabel *Label111;
+    TLabel *Label112;
+    TEdit *UlMgzGripOnPreYPosEdit;
+    TEdit *UlMgzGripOnPreZPosEdit;
+    TRzBitBtn *UlMgzGripOnPrePosGetBtn;
+    TRzBitBtn *UlMgzGripOnPrePosGoBtn;
+    TGroupBox *GroupBox57;
+    TLabel *Label113;
+    TLabel *Label134;
+    TEdit *UlMgzGripOnOutZPosEdit;
+    TEdit *UlMgzGripOnOutYPosEdit;
+    TRzBitBtn *UlMgzGripOnOutPosGetBtn;
+    TRzBitBtn *UlMgzGripOnOutPosGoBtn;
+    TGroupBox *GroupBox58;
+    TLabel *Label116;
+    TLabel *Label139;
+    TEdit *UlMgzGripOffPreZPosEdit;
+    TEdit *UlMgzGripOffPreYPosEdit;
+    TRzBitBtn *UlMgzGripOffPrePosGetBtn;
+    TRzBitBtn *UlMgzGripOffPrePosGoBtn;
+    TGroupBox *GroupBox61;
+    TLabel *Label117;
+    TLabel *Label140;
+    TEdit *UlMgzGripOffCvyYPosEdit;
+    TEdit *UlMgzGripOffCvyZPosEdit;
+    TRzBitBtn *UlMgzGripOffCvyPosGetBtn;
+    TRzBitBtn *UlMgzGripOffCvyPosGoBtn;
+    TGroupBox *GroupBox63;
+    TLabel *Label119;
+    TLabel *Label146;
+    TEdit *UlMgzGripOffZPosEdit;
+    TEdit *UlMgzGripOffYPosEdit;
+    TRzBitBtn *UlMgzGripOffPosGetBtn;
+    TRzBitBtn *UlMgzGripOffPosGoBtn;
+    TGroupBox *GroupBox72;
+    TLabel *Label126;
+    TLabel *Label129;
+    TLMDSpinEdit *UlMgzLdOutDlySpinEdit;
+    TLMDSpinEdit *UlMgzEmptyChkTimeSpinEdit;
+    TGroupBox *GroupBox73;
+    TLabel *Label130;
+    TLabel *Label131;
+    TEdit *UlMgzGripOnCvyYPosEdit;
+    TEdit *UlMgzGripOnCvyZPosEdit;
+    TRzBitBtn *UlMgzGripOnCvyPosGetBtn;
+    TRzBitBtn *UlMgzGripOnCvyPosGoBtn;
+    TGroupBox *GroupBox109;
+    TLabel *Label148;
+    TLabel *Label149;
+    TEdit *UlMgzGripOnUpYPosEdit;
+    TEdit *UlMgzGripOnUpZPosEdit;
+    TRzBitBtn *UlMgzGripOnUpPosGetBtn;
+    TRzBitBtn *UlMgzGripOnUpPosGoBtn;
+    TGroupBox *GroupBox110;
+    TLabel *Label154;
+    TLabel *Label157;
+    TEdit *UlMgzGripOffDnZPosEdit;
+    TEdit *UlMgzGripOffDnYPosEdit;
+    TRzBitBtn *UlMgzGripOffDnPosGetBtn;
+    TRzBitBtn *UlMgzGripOffDnPosGoBtn;
+    TGroupBox *GroupBox111;
+    TLabel *Label158;
+    TLabel *Label159;
+    TEdit *UlMgzGripOffOutZPosEdit;
+    TEdit *UlMgzGripOffOutYPosEdit;
+    TRzBitBtn *UlMgzGripOffOutPosGetBtn;
+    TRzBitBtn *UlMgzGripOffOutPosGoBtn;
+    TGroupBox *GroupBox55;
+    TSpeedButton *UlMgzLdBtn;
+    TSpeedButton *UlMgzUlBtn;
+    TTabSheet *EngPage5;
+    TPanel *Panel12;
+    TGroupBox *GroupBox65;
+    TLabel *Label197;
+    TLabel *Label198;
+    TLabel *Label20;
+    TLMDSpinEdit *Ax0HSpdSpinEdit;
+    TLMDSpinEdit *Ax2HSpdSpinEdit;
+    TLMDSpinEdit *Ax3HSpdSpinEdit;
+    TGroupBox *GroupBox42;
+    TLabel *Label187;
+    TLabel *Label188;
+    TLMDSpinEdit *Ax0SpdSpinEdit;
+    TLMDSpinEdit *Ax0AccSpinEdit;
+    TGroupBox *GroupBox50;
+    TLabel *Label191;
+    TLabel *Label192;
+    TLMDSpinEdit *Ax3SpdSpinEdit;
+    TLMDSpinEdit *Ax3AccSpinEdit;
+    TGroupBox *GroupBox51;
+    TLabel *Label193;
+    TLabel *Label194;
+    TLMDSpinEdit *Ax0JSpdSpinEdit;
+    TLMDSpinEdit *Ax0JAccSpinEdit;
+    TGroupBox *GroupBox52;
+    TLabel *Label195;
+    TLabel *Label196;
+    TLMDSpinEdit *Ax3JSpdSpinEdit;
+    TLMDSpinEdit *Ax3JAccSpinEdit;
+    TGroupBox *GroupBox4;
+    TLabel *Label6;
+    TLabel *Label15;
+    TLMDSpinEdit *Ax2SpdSpinEdit;
+    TLMDSpinEdit *Ax2AccSpinEdit;
+    TGroupBox *GroupBox6;
+    TLabel *Label16;
+    TLabel *Label17;
+    TLMDSpinEdit *Ax2JSpdSpinEdit;
+    TLMDSpinEdit *Ax2JAccSpinEdit;
+    TPageControl *FacPageCtrl;
+    TTabSheet *FacPage0;
+    TPanel *Panel3;
+    TTabSheet *FacPage1;
+    TPanel *Panel13;
+    TGroupBox *SysFacOptionGrpBox;
+    TCheckBox *NoHWChkBox;
+    TCheckBox *EnglishVersionChkBox;
+    TCheckBox *SetupBtnPswdChkBox;
+    TCheckBox *DisableSpdAdjustChkBox;
+    TCheckBox *UseSecsGemChkBox;
+    TCheckBox *DebugModeChkBox;
+    TCheckBox *NoUseUnloaderChkBox;
+    TCheckBox *EnaSmemaChkBox;
+    TCheckBox *NoUseXYCoordMoveChkBox;
+    TCheckBox *UseLineScanChkBox;
+    TCheckBox *UsePreBufCvyChkBox;
+    TCheckBox *NoUseRearRailChkBox;
+    TCheckBox *NoUseFnIoChkBox;
+    TGroupBox *GroupBox62;
+    TLabel *Label3;
+    TLabel *Label2;
+    TEdit *UdpIpEdit;
+    TEdit *UdpPortEdit;
+    TGroupBox *GroupBox8;
+    TCheckBox *AlwaysSafetyOnChkBox;
+    TCheckBox *AutoDoorLockChkBox;
+    TCheckBox *EngSaftySetEnaChkBox;
+    TRadioGroup *EquipTypeSelRdoGrp;
+    TTabSheet *FacPage2;
+    TPanel *Panel14;
+    TGroupBox *GroupBox45;
+    TLabel *Label27;
+    TLabel *Label184;
+    TLabel *Label186;
+    TLabel *Label220;
+    TLabel *Label10;
+    TEdit *Ax3PulsePermmEdit;
+    TEdit *Ax0PulsePermmEdit;
+    TEdit *Ax2PulsePermmEdit;
+    TEdit *Ax1PulsePermmEdit;
+    TEdit *Ax4PulsePermmEdit;
+    TTabSheet *FacPage3;
+    TPanel *Panel15;
+    TGroupBox *GroupBox44;
+    TLabel *Label145;
+    TLabel *Label89;
+    TLabel *Label189;
+    TLabel *Label1;
+    TLabel *Label18;
+    TEdit *Ax0MSftLmtPosEdit;
+    TEdit *Ax1MSftLmtPosEdit;
+    TEdit *Ax3MSftLmtPosEdit;
+    TEdit *Ax2MSftLmtPosEdit;
+    TRzBitBtn *Ax0MSftLmtPosGetBtn;
+    TRzBitBtn *Ax0MSftLmtPosGoBtn;
+    TRzBitBtn *Ax1MSftLmtPosGetBtn;
+    TRzBitBtn *Ax1MSftLmtPosGoBtn;
+    TRzBitBtn *Ax2MSftLmtPosGetBtn;
+    TRzBitBtn *Ax2MSftLmtPosGoBtn;
+    TRzBitBtn *Ax3MSftLmtPosGetBtn;
+    TRzBitBtn *Ax3MSftLmtPosGoBtn;
+    TEdit *Ax4MSftLmtPosEdit;
+    TRzBitBtn *Ax4MSftLmtPosGetBtn;
+    TRzBitBtn *Ax4MSftLmtPosGoBtn;
+    TGroupBox *GroupBox46;
+    TLabel *Label5;
+    TLabel *Label9;
+    TLabel *Label11;
+    TLabel *Label12;
+    TLabel *Label19;
+    TEdit *Ax0PSftLmtPosEdit;
+    TEdit *Ax1PSftLmtPosEdit;
+    TEdit *Ax3PSftLmtPosEdit;
+    TEdit *Ax2PSftLmtPosEdit;
+    TRzBitBtn *Ax0PSftLmtPosGetBtn;
+    TRzBitBtn *Ax0PSftLmtPosGoBtn;
+    TRzBitBtn *Ax1PSftLmtPosGetBtn;
+    TRzBitBtn *Ax1PSftLmtPosGoBtn;
+    TRzBitBtn *Ax2PSftLmtPosGetBtn;
+    TRzBitBtn *Ax2PSftLmtPosGoBtn;
+    TRzBitBtn *Ax3PSftLmtPosGetBtn;
+    TRzBitBtn *Ax3PSftLmtPosGoBtn;
+    TEdit *Ax4PSftLmtPosEdit;
+    TRzBitBtn *Ax4PSftLmtPosGetBtn;
+    TRzBitBtn *Ax4PSftLmtPosGoBtn;
+    TGroupBox *GroupBox9;
+    TLabel *Label28;
+    TEdit *Edit2;
+    TLMDSpinEdit *VacOnDelaySpinEdit;
+    TLabel *Label26;
+    TCheckBox *ChkFrontDispComm;
+    void __fastcall ToolBarBtnClick(TObject *Sender);
+    void __fastcall FormShow(TObject *Sender);
+    void __fastcall FormCreate(TObject *Sender);
+    void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
+    void __fastcall TrackBarChange(TObject *Sender);
+    void __fastcall GetPosBtnClick(TObject *Sender);
+    void __fastcall GoBtnClick(TObject *Sender);
+    void __fastcall BitBtnClick(TObject *Sender);
+    void __fastcall TwrLmpComboBoxChange(TObject *Sender);
+    void __fastcall SetupTreeViewChange(TObject *Sender, TTreeNode *Node);
+    void __fastcall SetupTreeViewExpanding(TObject *Sender,
+          TTreeNode *Node, bool &AllowExpansion);
+    void __fastcall TickTimerTimer(TObject *Sender);
+    void __fastcall DataChange(TObject *Sender);
+    void __fastcall DataClick(TObject *Sender);
+    void __fastcall PosDataChange(TObject *Sender);
+    void __fastcall FormKeyPress(TObject *Sender, char &Key);
+    void __fastcall MotionBtnClick(TObject *Sender);
+    void __fastcall UnitDataChange(TObject *Sender);
+    void __fastcall UlSelectCmbBoxChange(TObject *Sender);
+    void __fastcall SetupTreeViewChanging(TObject *Sender, TTreeNode *Node,
+          bool &AllowChange);
+    void __fastcall m_SaveSettingsClick(TObject *Sender);
+    void __fastcall m_LoadSettingsClick(TObject *Sender);
+private:	// User declarations
+    bool m_bDataChange;
+    void __fastcall LoaderDataSet(bool bCompToVar);    
+public:		// User declarations
+    int m_nVsnLight[2][2][3];//[Cam][Side][Value]
+    __fastcall TSysSetupForm(TComponent* Owner);
+    void __fastcall VarToComponent();
+    void __fastcall ComponentToVar();
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TSysSetupForm *SysSetupForm;
+//---------------------------------------------------------------------------
+#endif

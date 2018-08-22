@@ -1,0 +1,204 @@
+##### AXISNAME #####
+Inspection X Axis
+Inspection Y Axis
+Not Use
+Unloader Y Axis
+Unloader Z Axis
+##### MSG_LIST #####
+System Power On.<<장비 프로그램을 시작 했습니다.>>확인 하세요
+System Power Off.<<장비 프로그램을 종료 했습니다.>>확인 하세요
+Invalid Password.<<비밀번호가 맞지 않습니다.>>확인 하세요
+Too Long password.<<비밀번호가 너무커서 16문자만 취합니다.>>확인 하세요.
+Password Changed Complete.<<비밀번호 변경을 완료 했습니다.>>확인 하세요.
+Incorrect Confirm Password.<<확인 비밀번호가 일치 하지 않습니다.>>확인 하세요.
+Do Not Use Empty Or Space.<<공백이나 스페이스를 사용할 수 없습니다.>>확인 하세요.
+Please Enter At Least 6 Characters.<<6자 이상 넣어주세요.>>확인 하세요.
+Please Enter Only Lowercase Letters.<<소문자만 사용할수 있습니다.>>확인 하세요.
+It Must Contain At Least One Of The Numbers.<<숫자가 하나 이상 들어가야 합니다.>>확인 하세요.
+It Must Contain At Least One Of The Characters.<<문자가 하나 이상 들어가야 합니다.>>확인 하세요.
+File Not Exist.<<파일이 존재하지 않습니다.>>확인 하세요.
+System Config File Open Error.<<장비 셋업 파일을 열 수가 없습니다. 백업된 데이타를 여시겠습니까?>>확인 하세요
+System Config File Loading Error.<<장비 셋업 파일을 열 수가 없습니다.>>확인 하세요
+System Config File Save Error.<<장 비셋업 파일을 저장 할 수가 없습니다.>>확인 하세요
+System Config File Modify.<<장비 셋업 파일을 수정 했습니다.>>확인 하세요
+Over Write File?<<파일이 이미존재 합니다. 겹쳐서 쓸까요?>>확인하세요.
+Work File Open Error.<<작업 파일을 읽을 수 없습니다.>>확인 하세요
+Work File Save.<<작업 파일을 저장 했습니다.>>확인 하세요
+Work File Load.<<작업 파일을 로드 했습니다.>>확인 하세요
+Work File Not Loaded.<<작업 파일을 열지 않았습니다.>>확인 하세요
+Work File Delete?<<작업 파일을 지우시겠습니까?>>확인 하세요
+Work Data Reset.<<현재 작업 중인 LOT 데이타는 리셋 됩니다. 새로 작업을 진행 하시기 바랍니다.>>확인하세요.
+Load Default Setup?<<초기값으로 설정하면 현재 설정값은 모두 없어집니다. 만일 이후 현재 값으로 다시 복원 하려면 Pro2020d.Bak 파일을 사용하세요. 초기 값으로 설정할까요?>>확인 하세요
+Load Factory Setup?<<출하 상태값으로 설정하면 현재 설정값은 모두 없어집니다. 만일 이후 현재 값으로 다시 복원 하려면 Pro2020d.Bak 파일을 사용하세요. 출하 상태 값으로 설정할까요?>>확인 하세요
+Data Save Close?<<설정 값이 변경 되었습니다. 저장한 후 종료 하시겠습니까?>>확인 하세요.
+Do you quit the program?<<프로그램을 종료 하시겠습니까?>>신중하게 대답하세요.
+Product Form Close On Curing?<<큐어 중에 생산 화면을 닫으면 큐어가 취소 됩니다.>>확인 하세요.
+Program Reset?<<프로그램을 리셋해야 적용이 됩니다. 리셋하시겠습니까?>>확인 하세요.
+WallPaper File Not Exist.<<배경으로 설정된 그림 파일을 찾을수 없습니다. 도움말 메뉴에서 그림 파일을 다시 설정 하십시요.>>그림 파일 읽기 에러
+Too many overlay.<<더이상 등록 할 수가 없습니다.>>확인 하세요.
+Delete Overlay?<<선택한 항목을 삭제 할까요?>>확인 하세요.
+Joystick Not Exist.<<조이스틱이 연결 되어 있지 않습니다.>>확인 하세요.
+Motion Board Init Error.<<모션 콘트롤 보드가 초기화 되지 않았습니다.>>확인 하세요.
+Invalid Picker Attach Force.<<픽커 스프링의 압축력을 초과 하였습니다. 시스템 설정의 픽커 스프링의 최대 압축력을 확인 하세요.>>에러
+Invalid Press Pressing Force.<<프레스 스프링의 압축력을 초과 하였습니다. 시스템 설정의 프레스 스프링의 최대 압축력을 확인 하세요.>>에러
+Is Cancel Edit Parameter?<<수정된 내용을 모두 무시할까요? [아니오]를 선택하면 변경된 값을 설정합니다.>>선택 하세요
+System Warm Up Start.<<워밍업을 시작 합니다.>>확인 하세요.
+System Warm Up Stop.<<워밍업을 정지 했습니다.>>확인 하세요.
+System Warm Up End.<<워밍업이 종료 되었습니다.>>확인 하세요.
+LOT Data Input?<<LOT 정보를 입력 후 생산을 시작 하시겠습니까?>>확인 하세요.
+Work Start.<<생산을 시작 합니다.>>생산.
+Work Stop.<<생산을 정지 합니다.>>생산.
+Work End.<<생산을 모두 끝냈습니다.>>확인 하세요.
+LOT Change.<<새로운 LOT로 교체 했습니다.>>생산.
+Main Air Low.<<메인 에어 압력이 너무 낮습니다.>>확인 하세요.
+Servo Power Switch Off.<<서보 전원 스위치가 꺼져 있습니다.>>확인 하세요.
+Main Emergency Switch Pressed.<<메인 비상정지 스위치가 눌렸습니다.>>확인 하세요.
+Unloader Emergency Switch Pressed.<<언로더 비상정지 스위치가 눌렸습니다.>>확인 하세요.
+No Events Data.<<표시할 상황 기록 데이터가 없습니다.>>확인 하세요.
+Is Reset Work Count?<<작업 수량이 초과 되었습니다 수량을 리셋할까요?>>확인 하세요.
+Wizard Mode Progress?<<마법사 모드로 작업 설정을 하시겠습니까?>>선택하세요.
+Please, Machine Initializing.<<장비 초기화를 하여 주십시요.>>에러
+Validate Day File Cleaning.<<유효 기간 이후 파일 클리닝 중입니다. 잠시만 기다려 주십시요...>>확인 하세요.
+Unloader Bar Safety Sensor Checked.<<언로더 안전 센서가 감지되고 있어 언로딩을 못하고 있습니다.>>확인 하세요.
+*** Magazine Change Message ***
+Unloader Magazine Empty.<<언로더에 매거진이  없습니다. 매거진을 공급하여 주시기 바랍니다.>>확인 하세요.
+^OK: 재 가동 합니다.
+^CANCEL: 해당 메시지를 띄우지 않습니다.
+Unloader Magazine Unloading Zone Full.<<언로더의 언로딩 컨베이어에 매거진이 가득 찼습니다. 매거진을 제거하여 주십시요.>>확인 하세요.
+^OK: 재 가동 합니다.
+^CANCEL: 해당 메시지를 띄우지 않습니다.
+Reject Unloader Magazine Full.<<리젝 매거진이 가득 찼습니다. 매거진을 교체하여 주십시요.>>확인 하세요.
+^OK: 재 가동 합니다.
+^CANCEL: 해당 메시지를 띄우지 않습니다.
+Reject Unloader Magazine Not Exist.<<리젝 매거진이 없습니다. 매거진을 장착하여 주십시요.>>확인 하세요.
+^OK: 재 가동 합니다.
+^CANCEL: 해당 메시지를 띄우지 않습니다.
+*** System Initializing Message ***
+System Init Start.<<장비 초기화를 시작합니다.>>확인 하세요.
+System Init Stop.<<장비 초기화를 정지 했습니다.>>확인 하세요.
+System Init End.<<장비 초기화를 완료 했습니다.>>확인 하세요.
+System Init Start?<<장비의 초기화를 해야 합니다. 시작 하시겠습니까?>>확인 하세요.
+Press Head Part Init Start.<<비젼 헤드부의 초기화를 시작 합니다.>>
+Press Head Part Init End.<<비젼 헤드부의 초기화를 완료 했습니다.>>
+Picker Head Part Init Start.<<픽커 헤드부의 초기화를 시작 합니다.>>
+Picker Head Part Init End.<<픽커 헤드부의 초기화를 완료 했습니다.>>
+Slug Supply Part Init Start.<<슬러그 공급부의 초기화를 시작 합니다.>>
+Slug Supply Part Init End.<<슬러그 공급부의 초기화를 완료 했습니다.>>
+Loader Part Init Start.<<패키지 공급부의 초기화를 시작 합니다.>>
+Loader Part Init End.<<패키지 공급부의 초기화를 완료 했습니다.>>
+Unloader Part Init Start.<<패키지 적재부의 초기화를 시작 합니다.>>
+Unloader Part Init End.<<패키지 적재부의 초기화를 완료 했습니다.>>
+Conveyor Part Init Start.<<패키지 컨베이어부의 초기화를 시작 합니다.>>
+Conveyor Part Init End.<<패키지 컨베이어부의 초기화를 완료 했습니다.>>
+*** 모터 이름을 사용하는 메시지는 여기다 따로 정의 했다. ***
+AxisName Homing Start.<<원점 잡기를 시작 합니다.>>확인 하세요.
+AxisName Homing Stop.<<원점 잡기를 정지 합니다.>>확인 하세요.
+AxisName Homing End.<<원점 잡기를 완료 했습니다.>>확인 하세요.
+##### ERR_LIST #####
+Invalid Password Error.<<비밀번호가 맞지 않습니다.>>확인 하세요
+Warning Safety Unlock.<<안전 장치를 해제하면 장비 운전 중 신체에 치명적인 상해를 받을수 있으며 이로 인한 사고 발생시 제조 회사는 책임을 지지 않습니다.>>경고
+Main Emergency Switch Press Error.<<메인 비상정지 스위치가 눌렸습니다.>>확인 하세요.
+Unloader Emergency Switch Press Error.<<언로더 비상정지 스위치가 눌렸습니다.>>확인 하세요.
+Attach#1 Door Open Error.<<작업 중에 1번 어태치부의 안전문이 열렸습니다. 정지 합니다.>>에러
+Attach#2 Door Open Error.<<작업 중에 2번 어태치부의 안전문이 열렸습니다. 정지 합니다.>>에러
+Press Door Open Error.<<작업 중에 프레스부의 안전문이 열렸습니다. 정지 합니다.>>에러
+Attach#1 Bar Safety Error.<<작업 중에 1번 어태치부의 안전 센서가 감지 되었습니다. 정지 합니다.>>조심하세요.
+Attach#2 Bar Safety Error.<<작업 중에 2번 어태치부의 안전 센서가 감지 되었습니다. 정지 합니다.>>조심하세요.
+Unloader Bar Safety Error.<<언로더 안전 센서가 감지 되었습니다. 정지 합니다.>>조심하세요.
+Main Air Low Error.<<메인 에어 압력이 너무 낮습니다.>>에러
+Servo Power Switch Off Error.<<서보 전원 스위치가 꺼져 있습니다.>>에러
+Heater Switch Off Error.<<히터 스위치가 오프되어 있습니다.>>에러
+Top Heater#1 Controller Alarm Error.<<상부 1번 히터에서 알람이 발생했습니다.>>에러
+Top Heater#2 Controller Alarm Error.<<상부 2번 히터에서 알람이 발생했습니다.>>에러
+Top Heater#3 Controller Alarm Error.<<상부 3번 히터에서 알람이 발생했습니다.>>에러
+Top Heater#4 Controller Alarm Error.<<상부 4번 히터에서 알람이 발생했습니다.>>에러
+Bottom Heater#1 Controller Alarm Error.<<하부 1번 히터에서 알람이 발생했습니다.>>에러
+Bottom Heater#2 Controller Alarm Error.<<하부 2번 히터에서 알람이 발생했습니다.>>에러
+Bottom Heater#3 Controller Alarm Error.<<하부 3번 히터에서 알람이 발생했습니다.>>에러
+Bottom Heater#4 Controller Alarm Error.<<하부 4번 히터에서 알람이 발생했습니다.>>에러
+Top Tool Heater Short Error.<<상부 히터의 단선을 확인하십시요. 상부 히터의 온도를 20도로 셋팅합니다.>>에러
+Bottom Tool Heater Short Error.<<하부 히터의 단선을 확인하십시요. 하부 히터 온도를 20도로 셋팅합니다.>>에러
+Cure Block Heater Temperature Error.<<큐어 블럭 히터에서 온도 알람이 발생 했습니다.>>에러
+Cure Heater Start Temperature Error.<<큐어 블럭의 히터 온도가 설정값에 도달하지 않았습니다.>>에러
+Cure Block Heater Fuse Broken Error.<<큐어 블럭의 히터 퓨즈가 끊어 졌습니다.>>에러.
+Please, Machine Initializing.<<장비를 초기화 하여 주십시요.>>에러
+Did Not Initialize Error.<<장비를 초기화 하여 주십시요.>>에러
+*** 통신 에러 정의 ***
+Inspection System Run Signal Error.<<비젼 모듈의 START 상태를 확인하여 주십시요.>>에러.
+^ABORT: 장비를 멈춥니다.
+^RETRY: 재시도 합니다.
+^IGNORE: 무시하고 작업을 진행합니다.
+Picker#1 Load Cell Communication Error.<<1번 픽커 로드셀과 통신이 되지 않습니다.>>에러
+Picker#2 Load Cell Communication Error.<<2번 픽커 로드셀과 통신이 되지 않습니다.>>에러
+Press Load Cell Communication Error.<<프레스 로드셀과 통신이 되지 않습니다.>>에러
+Picker#1 Height Laser Communication Error.<<1번 픽커 높이 측정 레이져와 통신이 되지 않습니다.>>에러
+Picker#2 Height Laser Communication Error.<<2번 픽커 높이 측정 레이져와 통신이 되지 않습니다.>>에러
+Picker#1 Height Laser Alarm.<<1번 픽커 높이 측정 레이져에서 알람이 발생 했습니다.>>에러
+Picker#2 Height Laser Alarm.<<2번 픽커 높이 측정 레이져에서 알람이 발생 했습니다.>>에러
+Press Height Laser Communication Error.<<프레스 높이 측정 레이져와 통신이 되지 않습니다.>>에러
+Press Height Laser Alarm.<<프레스 높이 측정 레이져에서 알람이 발생 했습니다.>>에러
+*** 로더 언로더 에러 정의 ***
+Invalid Unloader Elevator Slot Position Error.<<언로더의 슬롯 위치가 비정상입니다.>>에러
+Unloader Is Not Safety Position Error. Please, Open The Gripper By Manual Operation.<<언로더의 위치가 안전하지 않습니다. 매거진 그립퍼를 수동으로 벌려주시기 바랍니다.>>에러
+Unloader Gripper Magazine Not Detection Error.<<언로더의 그립퍼에서 매거진을 감지하지 못하였습니다.>>에러
+Unloader Gripper On/Off Sensor Broaken Error.<<언로더 그립퍼 실린더의 On/Off 센서를 확인하여 주십시요.>>에러
+Unloader Gripper Magazine Grip Error.<<언로더 그립퍼가 매거진을 잡지 못하였습니다.>>에러
+Unloader Magazine Gripper Off Error.<<언로더 매거진 그립퍼가 열리지 않습니다.>>에러
+Unloader Magazine Unloading Error.<<언로더의 언로딩 컨베이어에 매거진을 정상적으로 갖다 놓치 못하였습니다.>>에러
+Invalid Reject Magazine Slot Position Error.<<리젝 매거진의 슬롯 위치가 비정상입니다.>>에러
+*** 컨베이어 영역 에러 정의 ***
+Roller#1 Out Zone Transfer Error.<<1번 롤러의 출구쪽으로 자재가 이송하지 못하였습니다.>>에러
+Roller#2 Out Zone Transfer Error.<<2번 롤러의 출구쪽으로 자재가 이송하지 못하였습니다.>>에러
+Roller#3 Out Zone Transfer Error.<<3번 롤러의 출구쪽으로 자재가 이송하지 못하였습니다.>>에러
+Roller#1 To Inspection Conveyor Transfer Error.<<1번 롤러에서 검사 컨베이어쪽으로 자재가 이송하지 못하였습니다.>>에러
+Roller#2 To Inspection Conveyor Transfer Error.<<2번 롤러에서 검사 컨베이어쪽으로 자재가 이송하지 못하였습니다.>>에러
+Roller#3 To Inspection Conveyor Transfer Error.<<3번 롤러에서 검사 컨베이어쪽으로 자재가 이송하지 못하였습니다.>>에러
+Roller#1 Out Zone Detection Error.<<1번 롤러의 출구쪽 센서를 확인하여 주십시요.>>에러
+Roller#2 Out Zone Detection Error.<<2번 롤러의 출구쪽 센서를 확인하여 주십시요.>>에러
+Roller#3 Out Zone Detection Error.<<3번 롤러의 출구쪽 센서를 확인하여 주십시요.>>에러
+Inspection Conveyor In Zone Detection Error.<<검사 컨베이어의 입구쪽 센서를 확인하여 주십시요.>>에러
+Inspection Conveyor Out Zone Detection Error.<<검사 컨베이어의 출구쪽 센서를 확인하여 주십시요.>>에러
+Unloading Conveyor In Zone Detection Error.<<언로딩 컨베이어의 입구쪽 센서를 확인하여 주십시요.>>에러
+Reject Conveyor In Zone Detection Error.<<리젝 컨베이어의 출구쪽 센서를 확인하여 주십시요.>>에러
+Inspection Conveyor Out Zone Transfer Error.<<검사 켄베이어의 출구쪽으로 자재 이송 에러가 발생하였습니다.>>에러
+Inspection Block Vacuum On Error.<<검사 블럭의 진공이 발생되지 않습니다.>>에러
+^ABORT: 장비를 멈춥니다.
+^RETRY: 재시도 합니다.
+^IGNORE: 무시하고 작업을 진행합니다.
+Unloader Conveyor Unloading Transfer Error.<<언로딩 컨베이어의 출구쪽으로 자재 이송 에러가 발생하였습니다.>>에러
+Unloading Conveyor Out Zone Detection Error.<<언로딩 컨베이어의 출구쪽 센서를 확인하여 주십시요.>>에러
+Rehect Conveyor Out Zone Detection Error.<<리젝 컨베이어의 출구쪽 센서를 확인하여 주십시요.>>에러
+*** 실린더 에러 정의 ***
+Roller#1 Stopper Up Error.<<1번 롤러의 스톱퍼가 올라 가지 않습니다.>>에러
+Roller#1 Stopper Down Error.<<1번 롤러의 스톱퍼가 내려 가지 않습니다.>>에러
+Roller#2 Stopper Up Error.<<2번 롤러의 스톱퍼가 올라 가지 않습니다.>>에러
+Roller#2 Stopper Down Error.<<2번 롤러의 스톱퍼가 내려 가지 않습니다.>>에러
+Roller#3 Stopper Up Error.<<3번 롤러의 스톱퍼가 올라 가지 않습니다.>>에러
+Roller#3 Stopper Down Error.<<3번 롤러의 스톱퍼가 내려 가지 않습니다.>>에러
+Inspection Block Up Error.<<검사 블럭이 올라 가지 않습니다.>>에러
+^OK: 장비를 멈춥니다.
+Inspection Block Down Error.<<검사 블럭이 내려 가지 않습니다.>>에러
+^OK: 장비를 멈춥니다.
+Unloading Conveyor Stopper Up Error.<<언로더 컨베이어의 스톱퍼가 올라가지 않습니다.>>에러
+Unloading Conveyor Stopper Down Error.<<언로더 컨베이어의 스톱퍼가 내려가지 않습니다.>>에러
+Unloading Conveyor Pusher Jam Error.<<언로더 컨베이어의 푸셔에서 잼 에러가 발생하였습니다.>>에러
+Unloading Conveyor Pusher On Error.<<언로더 컨베이어의 푸셔가 전진하지 못하였습니다.>>에러
+Unloading Conveyor Pusher Off Error.<<언로더 컨베이어의 푸셔가 후진하지 못하였습니다.>>에러
+Unloading Conveyor Unloading Error.<<언로더 컨베이어에서 자재를 정상적으로 배출하지 못하였습니다.>>에러
+Reject Conveyor Stopper Up Error.<<리젝 컨베이어의 스톱퍼가 올라가지 않습니다.>>에러
+Reject Conveyor Stopper Down Error.<<리젝 컨베이어의 스톱퍼가 내려가지 않습니다.>>에러
+Reject Conveyor Pusher Jam Error.<<리젝 컨베이어의 푸셔에서 잼 에러가 발생하였습니다.>>에러
+Reject Conveyor Pusher On Error.<<리젝 컨베이어의 푸셔가 전진하지 못하였습니다.>>에러
+Reject Conveyor Pusher Off Error.<<리젝 컨베이어의 푸셔가 후진하지 못하였습니다.>>에러
+Reject Conveyor Unloading Error.<<리젝 컨베이어에서 자재를 정상적으로 배출하지 못하였습니다.>>에러
+*** 축 이름을 사용하는 모터 알람을 여기다 따로 정의 했다. ***
+AxisName Servo Amp Alarm.<<서보 앰프에 에러가 발생 하였습니다.>>에러
+AxisName Servo Power Off.<<서보 앰프 전원이 꺼져 있습니다.>>에러
+AxisName H/W Plus Limit Error.<<(+) 하드웨어 리미트가 감지되었습니다.>>에러
+AxisName H/W Minus Limit Error.<<(-) 하드웨어 리미트가 감지되었습니다.>>에러
+AxisName S/W Plus Limit Error.<<(+) 소프트웨어 리미트가 감지되었습니다.>>에러
+AxisName S/W Minus Limit Error.<<(-) 소프트웨어 리미트가 감지되었습니다.>>에러
+AxisName Move Time Error.<<이동 시간이 초과 되었습니다.>>에러
+AxisName Home Searching Time Error.<<원점 복귀 시간이 초과 되었습니다.>>에러
+AxisName Invalid Accel Error.<<유효하지 않은 가속도 입니다.>>에러
+AxisName Invalid Speed Error.<<유효하지 않은 속도 입니다.>>에러

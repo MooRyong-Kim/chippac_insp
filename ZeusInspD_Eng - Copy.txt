@@ -1,0 +1,260 @@
+##### AXISNAME #####
+Inspection X Axis
+Inspection Y Axis
+Distributer
+Not Use
+Unloader
+##### MSG_LIST #####
+System Power On.<<System Power On.>>
+System Power Off.<<System Power Off.>>
+Invalid Password.<<Invalid Password.>>Confirm.
+Too Long password.<<Too Long password.>>Confirm.
+Password Changed Complete.<<Password Changed Complete.>>Confirm.
+Incorrect Confirm Password.<<Incorrect Confirm Password.>>Confirm.
+Do Not Use Empty Or Space.<<Do Not Use Empty Or Space.>>Confirm.
+Please Enter At Least 6 Characters.<<Please Enter At Least 6 Characters.>>Confirm.
+Please Enter Only Lowercase Letters.<<Please Enter Only Lowercase Letters.>>Confirm.
+It Must Contain At Least One Of The Numbers.<<It Must Contain At Least One Of The Numbers.>>Confirm.
+It Must Contain At Least One Of The Characters.<<It Must Contain At Least One Of The Characters.>>Confirm.
+File Not Exist.<<File Not Exist.>>Confirm.
+Overlay File Open Error.<<Overlay File Open Error.>>Confirm.
+Overlay File Save Error.<<Overlay File Save Error.>>Confirm.
+System Config File Open Error.<<System Config File Open Error.>>Confirm.
+System Config File Loading Error.<<System Config File Loading Error.>>Confirm.
+System Config File Save Error.<<System Config File Save Error.>>Confirm.
+System Config File Modify.<<System Config File Modify.>>Confirm.
+Over Write File?<<Over Write File?>>Confirm.
+Work File Open Error.<<Work File Open Error.>>Confirm.
+Work File Save.<<Work File Save.>>Confirm.
+Work File Load.<<Work File Load.>>Confirm.
+Work File Not Loaded.<<Work File Not Loaded.>>Confirm.
+Work File Delete?<<Work File Delete?>>Confirm.
+Work Data Reset.<<Work Data Reset.>>Confirm.
+Load Default Setup?<<Load Default Setup?>>Confirm.
+Load Factory Setup?<<Load Factory Setup?>>Confirm.
+Data Save Exit?<<Data Save Exit?>>Confirm.
+Program Exit?<<Program Exit?>>Confirm.
+Product Form Close On Curing?<<Product Form Close On Curing?>>Confirm.
+Program Reset?<<Program Reset?>>Confirm.
+WallPaper File Not Exist.<<WallPaper File Not Exist.>>Confirm.
+Too many overlay.<<Too many overlay.>>Confirm.
+Delete Overlay?<<Delete Overlay?>>Confirm.
+Joystick Not Exist.<<Joystick Not Exist.>>Confirm.
+Motion Board Init Error.<<Motion Board Init Error.>>Confirm.
+Invalid Picker Attach Force.<<Invalid Picker Attach Force.>>Error.
+Invalid Press Pressing Force.<<Invalid Press Pressing Force.>>Error.
+Is Cancel Edit Parameter?<<Is Cancel Edit Parameter?>>Confirm.
+System Warm Up Start.<<System Warm Up Start.>>Confirm.
+System Warm Up Stop.<<System Warm Up Stop.>>Confirm.
+System Warm Up End.<<System Warm Up End.>>Confirm.
+LOT Data Input?<<LOT Data Input?>>Confirm.
+Default Vision File Not Exist.<<Default Vision File Not Exist.>>Confirm.
+Please, Vision Setting Again.<<Please, Vision Setting Again.>>Confirm.
+Camera Calibration Vision File Not Exist.<<Camera Calibration Vision File Not Exist.>>Confirm.
+Top Camera Pixel Calibration Start.<<Top Camera Pixel Calibration Start.>>Confirm.
+Bottom Camera Pixel Calibration Start.<<Bottom Camera Pixel Calibration Start.>>Confirm.
+Top Camera Calibration Data Save?<<Top Camera Calibration Data Save?>>Confirm.
+Bottom Camera Calibration Data Save?<<Bottom Camera Calibration Data Save?>>Confirm.
+Top Vision Object Center Move Start.<<Top Vision Object Center Move Start.>>Confirm.
+Bottom Vision Object Center Move Start.<<Bottom Vision Object Center Move Start.>>Confirm.
+Top Bottom Camera Center Position Get Start.<<Top Bottom Camera Center Position Get Start.>>Confirm.
+Picker Spring Calibration Start.<<Picker Spring Calibration Start.>>Confirm.
+Picker Spring Calibration Data Save?<<Picker Spring Calibration Data Save?>>Confirm.
+Picker Pressing Force Test Start.<<Picker Pressing Force Test Start.>>Confirm.
+Press Spring Calibration Start.<<Press Spring Calibration Start.>>Confirm.
+Press Spring Calibration Data Save?<<Press Spring Calibration Data Save?>>Confirm.
+Press Height Inspection Data Measurment Start.<<Press Height Inspection Data Measurment Start.>>Confirm.
+Press Height Inspection Data Save?<<Press Height Inspection Data Save?>>Confirm.
+Press Pressing Force Test Start.<<Press Pressing Force Test Start.>>Confirm.
+Press Pressing Distance Data Save?<<Press Pressing Distance Data Save?>>Confirm.
+Picker Pick Up Test Start.<<Picker Pick Up Test Start.>>Confirm.
+Work Start.<<Work Start.>>Production.
+Work Stop.<<Work Stop.>>Production.
+Work End.<<Work End.>>Confirm.
+LOT Change.<<LOT Change.>>Production.
+Main Air Low.<<Main Air Low.>>Confirm.
+Servo Power Switch Off.<<Servo Power Switch Off.>>Confirm.
+Main Emergency Switch Pressed.<<Main Emergency Switch Pressed.>>Confirm.
+Unloader Emergency Switch Pressed.<<Unloader Emergency Switch Pressed.>>Confirm.
+No Events Data.<<No Events Data.>>Confirm.
+Is Reset Work Count?<<Is Reset Work Count?>>Confirm.
+Wizard Mode Progress?<<Wizard Mode Progress?>>Select.
+Slug#1 Pick Up Test Start.<<Slug#1 Pick Up Test Start.>>Confirm.
+Slug#1 Elevator Test Start.<<Slug#1 Elevator Test Start.>>Confirm.
+Slug#2 Pick Up Test Start.<<Slug#2 Pick Up Test Start.>>Confirm.
+Slug#2 Elevator Test Start.<<Slug#2 Elevator Test Start.>>Confirm.
+Press Height Calibration Start.<<Press Height Calibration Start.>>Confirm.
+Press Height Calibration Data Save?<<Press Height Calibration Data Save?>>Confirm.
+Picker Height Laser Offset Calibration Start.<<Picker Height Laser Offset Calibration Start.>>Confirm.
+Picker Height Laser Offset Calibration Data Save?<<Picker Height Laser Offset Calibration Data Save?>>Confirm.
+Press Height Laser Offset Calibration Start.<<Press Height Laser Offset Calibration Start.>>Confirm.
+Press Height Laser Offset Calibration Data Save?<<Press Height Laser Offset Calibration Data Save?>>Confirm.
+Invalid Slug Tick Value.<<Invalid Slug Tick Value.>>Error.
+Boat Loading To Attach Zone.<<Boat Loading To Attach Zone.>>Confirm.
+Press Pressing Test Start.<<Press Pressing Test Start.>>Confirm.
+Do Mouse Click On Vision Image.<<Do Mouse Click On Vision Image.>>Confirm.
+Serial Motor Com Port Open Error.<<Serial Motor Com Port Open Error.>>Confirm
+Picker Load Cell Com Port Open Error.<<Picker Load Cell Com Port Open Error.>>Confirm
+Press Load Cell Com Port Open Error.<<Press Load Cell Com Port Open Error.>>Confirm
+Picker Height Laser Com Port Open Error.<<Picker Height Laser Com Port Open Error.>>Confirm
+Press Height Laser Com Port Open Error.<<Press Height Laser Com Port Open Error.>>Confirm
+Jog Pad Com Port Open Error.<<Jog Pad Com Port Open Error.>>Confirm
+Attach Loadcell Com Port Open Error.<<Attach Loadcell Com Port Open Error.>>Confirm
+Unloader Bar Safety Sensor Checked.<<Unloader Bar Safety Sensor Checked.>>Confirm
+*** Magazine Change Message ***
+Slug#1 Magazine Not Exist.<<Slug#1 Magazine Not Exist.>>Error.
+Slug#2 Magazine Not Exist.<<Slug#2 Magazine Not Exist.>>Error.
+Slug#1 Magazine Empty.<<Slug#1 Magazine Empty.>>Confirm.
+Slug#2 Magazine Empty.<<Slug#2 Magazine Empty.>>Confirm.
+Loader Magazine Empty.<<Loader Magazine Empty.>>Confirm.
+Unloader Magazine Full.<<Unloader Magazine Full.>>Confirm.
+*** System Initializing Message ***
+System Init Start.<<System Init Start.>>Confirm.
+System Init Stop.<<System Init Stop.>>Confirm.
+System Init End.<<System Init End.>>Confirm.
+System Init Start?<<System Init Start?>>Confirm.
+Press Head Part Init Start.<<Press Head Part Init Start.>>
+Press Head Part Init End.<<Press Head Part Init End.>>
+Picker Head Part Init Start.<<Picker Head Part Init Start.>>
+Picker Head Part Init End.<<Picker Head Part Init End.>>
+Slug Supply Part Init Start.<<Slug Supply Part Init Start.>>
+Slug Supply Part Init End.<<Slug Supply Part Init End.>>
+Loader Part Init Start.<<Loader Part Init Start.>>
+Loader Part Init End.<<Loader Part Init End.>>
+Unloader Part Init Start.<<Unloader Part Init Start.>>
+Unloader Part Init End.<<Unloader Part Init End.>>
+Conveyor Part Init Start.<<Conveyor Part Init Start.>>
+Conveyor Part Init End.<<Conveyor Part Init End.>>
+*** Use The Motor Name Message Define ***
+AxisName Home Start.<<Home Start.>>Confirm.
+AxisName Home Stop.<<Home Stop.>>Confirm.
+AxisName Home End.<<Home End.>>Confirm.
+##### ERR_LIST #####
+Warning Safety Unlock.<<Warning Safety Unlock.>>Warning.
+Main Emergency Switch Press Error.<<Main Emergency Switch Press Error.>>Confirm.
+Unloader Emergency Switch Press Error.<<Unloader Emergency Switch Press Error.>>Confirm.
+Attach Door Open Error.<<Attach Door Open Error.>>Error.
+Press Door Open Error.<<Press Door Open Error.>>Error.
+Main Air Low Error.<<Main Air Low Error.>>Error.
+Servo Power Switch Off Error.<<Servo Power Switch Off Error.>>Error.
+Heater Switch Off Error.<<Heater Switch Off Error.>>Error.
+Dispenser Block Heater Temperature Error.<<Dispenser Block Heater Temperature Error.>>Error.
+Attach Block Heater Temperature Error.<<Attach Block Heater Temperature Error.>>Error.
+Cure Block Heater Temperature Error.<<Cure Block Heater Temperature Error.>>Error.
+Dispenser Heater Start Temperature Error.<<Dispenser Heater Start Temperature Error.>>Error.
+Attach Heater Start Temperature Error.<<Attach Heater Start Temperature Error.>>Error.
+Cure Heater Start Temperature Error.<<Cure Heater Start Temperature Error.>>Error.
+Attach Block Heater Fuse Broken Error.<<Attach Block Heater Fuse Broken Error.>>Error..
+Press Block Heater Fuse Broken Error.<<Press Block Heater Fuse Broken Error.>>Error..
+Cure Block Heater Fuse Broken Error.<<Cure Block Heater Fuse Broken Error.>>Error..
+Initializing Please.<<Initializing Please.>>Error.
+Slug#1 Magazine Not Exist.<<Slug#1 Magazine Not Exist.>>Error.
+Slug#2 Magazine Not Exist.<<Slug#2 Magazine Not Exist.>>Error.
+Slug#1 Magazine Empty.<<Slug#1 Magazine Empty.>>Confirm.
+Slug#2 Magazine Empty.<<Slug#2 Magazine Empty.>>Confirm.
+Slug Continue Dump Error.<<Slug Continue Dump Error.>>Error.
+*** Calibration Error Define ***
+Picker Pad Offset Calibration Error.<<Picker Pad Offset Calibration Error.>>Error.
+Height Laser Calibration Error.<<Height Laser Calibration Error.>>Error.
+Boat Not Exist On Attach Block Error.<<Boat Not Exist On Attach Block Error.>>Error.
+Boat Not Exist On Press Block Error.<<Boat Not Exist On Press Block Error.>>Error.
+*** Picker Error Define ***
+Picker Down Move Error.<<Picker Down Move Error.>>Error.
+Picker Pick Up Error.<<Picker Pick Up Error.>>Error.
+Picker Vacuum Off Error.<<Picker Vacuum Off Error.>>Error.
+Picker Spring Force Error.<<Picker Spring Force Error.>>Error.
+Invalid Picker Spring Press Stroke Error.<<Invalid Picker Spring Press Stroke Error.>>Error.
+*** Press Error Define ***
+Press Down Move Error.<<Press Down Move Error.>>Error.
+Press Spring Force Error.<<Press Spring Force Error.>>Error.
+Invalid Press Spring Press Stroke Error.<<Invalid Press Spring Press Stroke Error.>>Error.
+Picker Height Laser Offset Calibration Error.<<Picker Height Laser Offset Calibration Error.>>Error.
+Press Height Laser Offset Calibration Error.<<Press Height Laser Offset Calibration Error.>>Error.
+Press Height Inspection Error.<<Press Height Inspection Error.>>Error.
+*** Communication Error Define ***
+Vision Module Communication Error.<<Vision Module Communication Error.>>Error.
+Dispenser Not Ready Error.<<Dispenser Not Ready Error.>>Error.
+Dispenser Communication Error.<<Dispenser Communication Error.>>Error.
+Picker Load Cell Communication Error.<<Picker Load Cell Communication Error.>>Error.
+Press Load Cell Communication Error.<<Press Load Cell Communication Error.>>Error.
+Picker Height Laser Communication Error.<<Picker Height Laser Communication Error.>>Error.
+Picker Height Laser Alarm.<<Picker Height Laser Alarm.>>Error.
+Press Height Laser Communication Error.<<Press Height Laser Communication Error.>>Error.
+Press Height Laser Alarm.<<Press Height Laser Alarm.>>Error.
+Picker Loadcell Invalid Data or Communication Error.<<Picker Loadcell Invalid Data or Communication Error.>>Error.
+Press Loadcell Invalid Data or Communication Error.<<Press Loadcell Invalid Data or Communication Error.>>Error.
+*** Vision Error Define ***
+Top Vision Pixel Calibration Error.<<Top Vision Pixel Calibration Error.>>Error.
+Bottom Vision Pixel Calibration Error.<<Bottom Vision Pixel Calibration Error.>>Error.
+Top Vision Object Center Move Error.<<Top Vision Object Center Move Error.>>Error.
+Bottom Vision Object Center Move Error.<<Bottom Vision Object Center Move Error.>>Error.
+Top Bottom Camera Center Position Get Error.<<Top Bottom Camera Center Position Get Error.>>Error.
+Invalid Top Calibration Data.<<Invalid Top Calibration Data.>>Error.
+Invalid Bottom Calibration Data.<<Invalid Bottom Calibration Data.>>Error.
+Top Fiducial#1 Vision Checking Error.<<Top Fiducial#1 Vision Checking Error.>>Error.
+Top Fiducial#2 Vision Checking Error.<<Top Fiducial#2 Vision Checking Error.>>Error.
+Bottom Align Vision Checking Error.<<Bottom Align Vision Checking Error.>>Error.
+Slug Chamber Inspection Error.<<Slug Chamber Inspection Error.>>Error.
+Dispenser Inspection Error.<<Dispenser Inspection Error.>>Error.
+Picker#1 Dispenser Reference Error.<<Picker#1 Dispenser Reference Error.>>Error.
+Picker#2 Dispenser Reference Error.<<Picker#2 Dispenser Reference Error.>>Error.
+*** Loader/Unloader Error Define ***
+Loader Pusher On Error.<<Loader Pusher On Error.>>Error.
+Loader Pusher Off Error.<<Loader Pusher Off Error.>>Error.
+Loader Pusher Jam Error.<<Loader Pusher Jam Error.>>Error.
+Unloader Pusher On Error.<<Unloader Pusher On Error.>>Error.
+Unloader Pusher Off Error.<<Unloader Pusher Off Error.>>Error.
+Unloader Pusher Jam Error.<<Unloader Pusher Jam Error.>>Error.
+*** Conveyor Error Define ***
+Loading Error.<<Loading Error.>>Error.
+Loading Zone Detection Error.<<Loading Zone Detection Error.>>Error.
+Dispenser Zone Moving Error.<<Dispenser Zone Moving Error.>>Error.
+Dispenser Zone Detection Error.<<Dispenser Zone Detection Error.>>Error.
+Attach Zone Moving Error.<<Attach Zone Moving Error.>>Error.
+Attach Zone Detection Error.<<Attach Zone Detection Error.>>Error.
+Press Zone Moving Error.<<Press Zone Moving Error.>>Error.
+Press Zone Detection Error.<<Press Zone Detection Error.>>Error.
+Cure Zone Moving Error.<<Cure Zone Moving Error.>>Error.
+Cure Zone Detection Error.<<Cure Zone Detection Error.>>Error.
+Unloading Zone Moving Error.<<Unloading Zone Moving Error.>>Error.
+Unloading Zone Detection Error.<<Unloading Zone Detection Error.>>Error.
+Unloading Out Error.<<Unloading Out Error.>>Error.
+Unloading Error.<<Unloading Error.>>Error.
+*** Cylinder Error Define ***
+Dispenser Stopper Up Error.<<Dispenser Stopper Up Error.>>Error.
+Dispenser Stopper Down Error.<<Dispenser Stopper Down Error.>>Error.
+Dispenser Block Up Error.<<Dispenser Block Up Error.>>Error.
+Dispenser Block Down Error.<<Dispenser Block Down Error.>>Error.
+Dispenser Block Vacuum On Error.<<Dispenser Block Vacuum On Error.>>Error.
+Dispenser Block Vacuum Off Error.<<Dispenser Block Vacuum Off Error.>>Error.
+Attach Stopper Up Error.<<Attach Stopper Up Error.>>Error.
+Attach Stopper Down Error.<<Attach Stopper Down Error.>>Error.
+Attach Block Up Error.<<Attach Block Up Error.>>Error.
+Attach Block Down Error.<<Attach Block Down Error.>>Error.
+Attach Block Vacuum On Error.<<Attach Block Vacuum On Error.>>Error.
+Attach Block Vacuum Off Error.<<Attach Block Vacuum Off Error.>>Error.
+Press Stopper Up Error.<<Press Stopper Up Error.>>Error.
+Press Stopper Down Error.<<Press Stopper Down Error.>>Error.
+Press Block Up Error.<<Press Block Up Error.>>Error.
+Press Block Down Error.<<Press Block Down Error.>>Error.
+Press Block Vacuum On Error.<<Press Block Vacuum On Error.>>Error.
+Press Block Vacuum Off Error.<<Press Block Vacuum Off Error.>>Error.
+Cure Stopper Up Error.<<Cure Stopper Up Error.>>Error.
+Cure Stopper Down Error.<<Cure Stopper Down Error.>>Error.
+Cure Block Up Error.<<Cure Block Up Error.>>Error.
+Cure Block Down Error.<<Cure Block Down Error.>>Error.
+Cure Block Vacuum On Error.<<Cure Block Vacuum On Error.>>Error.
+Cure Block Vacuum Off Error.<<Cure Block Vacuum Off Error.>>Error.
+*** Use Motor Axis Name Message Define ***
+AxisName Servo Amp Alarm.<<Servo Amp Alarm.>>Error.
+AxisName Servo Power Off.<<Servo Power Off.>>Error.
+AxisName H/W Plus Limit Error.<<H/W Plus Limit Error.>>Error.
+AxisName H/W Minus Limit Error.<<H/W Minus Limit Error.>>Error.
+AxisName S/W Plus Limit Error.<<S/W Plus Limit Error.>>Error.
+AxisName S/W Minus Limit Error.<<S/W Minus Limit Error.>>Error.
+AxisName Move Time Error.<<Move Time Error.>>Error.
+AxisName Home Searching Time Error.<<Home Searching Time Error.>>Error.
+AxisName Invalid Accel Error.<<Invalid Accel Error.>>Error.
+AxisName Invalid Speed Error.<<Invalid Speed Error.>>Error.
+
+

@@ -1,0 +1,213 @@
+******** REMOTE COMMAND ********
+RCMD_GOLOCAL
+RCMD_GOREMOTE
+RCMD_START
+RCMD_STOP
+RCMD_ALARM
+RCMD_PPSELECT
+RCMD_LOTIDCHANGE
+RCMD_NEWLOT
+RCMD_LOTSTART
+******** SVID ********
+2001	CommState	U1
+2002	Control State	U1
+2003	Prev Control State	U1
+2004	Process State	U1
+2005	Prev Process State	U1
+2006	Reserved	U1
+2007	Reserved	U1
+2008	Reserved	U1
+2009	CurrentPPID	A
+2010	LatestAlarmSet	U2
+2011	LatestAlarmClear	U2
+2012	CycleTime	A
+2013	TotalCount(PCBs)	U4
+2014	ProductCount(PCBs)	U4
+2015	RejectCount(PCBs)	U4
+2016	UPH(PCBs)	A
+2017	OperatorID	A
+2018	DeviceName	A
+2019	LotID	A
+2020	MainAirStatus	B
+2021	MachineInitialized	B
+2022	EqLifeTime	A
+2023	EqRunTime	A
+2024	EqStopTime	A
+2025	EqErrorTime	A
+2026	EqMTBA	A
+2027	ProductionStartTime	A
+2028	ProductionEndTime	A
+******** CEID ********
+1001	Control State Changed to Online-Local
+1002	Control State Changed to Online-Remote
+1003	Control State Changed to Offline
+1004	Process State Changed
+1005	Reserved
+1006	Reserved
+1007	Terminal Message Acknowledged
+1008	Alarm Set
+1009	Alarm Clear
+1010	Power On
+1011	Init System
+1012	Warm Start
+1013	Edit Program
+1018	Power Off
+1019	Open File
+1020	Start Run
+1022	Pause Run
+1023	Start New Lot
+1024	Change Config
+1026	Safety Unlock
+1027	Safety Lock
+1026	Last PCB is unloading at every magazine(Magazine Job End)
+1028	Every PCB is unloading(PCB Process End)
+1030	Magazine Unloading
+1032	Alarm Clear Run
+1033	Unloader Empty
+1034	Unloader Full(Busy)
+******** ECID ********
+3001	ConnectionMode	U1
+3002	PortNumber	U2
+3003	Remote IP Address	A
+3004	T3 Timeout	U1
+3005	T5 Timeout	U1
+3006	T6 Timeout	U1
+3007	T7 Timeout	U1
+3008	T8 Timeout	U1
+3009	LinkTestInterval	U1
+3010	RetryLimit	U1
+3011	DeviceID	U1
+******** ALID ********
+1	Emergency stop switch is pressed.
+2	Safety sensor is sensed.
+3	The front safety error.
+4	The rear safety error.
+5	The servo switch is off.
+6	The Robot has not original position.
+8	Too low air pressure.
+9	File open error.
+10	Laser sensor communication error
+11	Over laser sensor distance
+12	The status of scale is unstable.
+19	Pump is not defined.
+20	Liquid weight is too small
+21	FLOW RATE is unstable.
+22	System set calibration data is abnormal.
+23	Failed in height calibration.
+24	Liquid in syringe #1 is worn out.
+25	Liquid in syringe #2 is worn out.
+26	X-Y axis can not move for Z axis down.
+27	X-Y axis can not move for TOGGLE cylinder down.
+28	Material height has a big deviation compared with the previous one.
+30	Successive dispensing pattern's length is too long. (use MOVE on the way)
+31	Error occurs on the way of moving material to Input(Pre Heater) Buffer.
+32	Error occurs on the way of moving material to Operation(Dispense Heater) Buffer.
+33	Error occurs on the way of moving material to Output(Post Heater) Buffer.
+34	Error occurs on the way of moving material to next machine.
+48	Remove Input buffer(Pre Heater)'s material.
+49	Remove Operation buffer(Dispense Heater)'s material.
+50	Remove Output buffer(Post Heater)'s material.
+51	Over syringe #1's liquid due time.
+52	Over syringe #2's liquid due time.
+53	Over syringe #1's liquid due turns
+54	Over syringe #2's liquid due turns.
+55	Communication error for electrical scale.
+56	Temp Controller alarm of Pre heater.
+57	Temp Controller alarm of Dispense heater.
+58	Temp Controller alarm of Post heater.
+59	Temp Controller alarm of Head #1 heater.
+60	Temp Controller alarm of Head #2 heater.
+61	The heater switch is off.
+62	Loader can't move because pusher is not back position.
+63	Unloader can't move because pusher is not back position.
+64	Pusher of Loader is not moved to backward.
+65	Pusher of Loader is not moved to forward.
+66	Pusher of Loader Jam.
+67	Loader is not moving.
+68	Pusher of Unloader is not moved to backward.
+69	Pusher of Unloader is not moved to forward.
+70	Unloader is not moving.
+99	[Unloader] Pusher Enable sensor 감지 에러
+100	servo amplifier error occurs.
+101	[Y axis] servo amplifier error occurs
+102	[Z axis]  servo amplifier error occurs
+103	[R1 axis]  servo amplifier error occurs
+104	[R2 axis]  servo amplifier error occurs
+107	[LOAD1 axis]  servo amplifier error occurs.(Do Servo turn off and on again)
+108	[LOAD2 axis]  servo amplifier error occurs.(Do Servo turn off and on again)
+110	[Y axis] (-) hardware limit sensed
+111	[Z axis] (-) hardware limit sensed.
+112	[R1 axis] (-) hardware limit sensed.
+113	[R2 axis] (-) hardware limit sensed.
+116	[LOAD1 axis] (-) hardware limit sensed
+117	[LOAD2 axis] (-) hardware limit sensed
+118	(+) hardware limit sensed.
+119	[Y axis] (+) hardware limit sensed.
+120	[Z axis] (+) hardware limit sensed
+121	[R1 axis] (+) hardware limit sensed.
+122	[R2 axis] (+) hardware limit sensed
+125	[LOAD1 axis] (+) hardware limit sensed
+126	[LOAD2 axis] (+) hardware limit sensed
+127	[X axis] (-) software limit sensed.
+128	[Y axis] (-) software limit sensed
+129	[Z axis] (-) software limit sensed
+130	[R1 axis] (-) software limit sensed
+131	[R2 axis] (-) software limit sensed
+134	[LOAD1 axis] (-) software limit sensed소.
+135	[LOAD2 axis] (-) software limit sensed소.
+136	[X axis] (+) software limit sensed.
+137	[Y axis] (+) software limit sensed.
+138	[Z axis] (+) software limit sensed
+139	[R1 axis] (+) software limit sensed.
+140	[R2 axis] (+) software limit sensed.
+143	[LOAD1 axis] (+) software limit sensed.
+144	[LOAD2 axis] (+) software limit sensed.
+145	[X axis] encoder error occurs.
+146	[Y axis] encoder error occurs..
+147	[Z axis] encoder error occurs..
+148	[R1 axis] encoder error occurs
+149	[R2 axis] encoder error occurs.
+152	[LOAD1 axis] encoder error occurs.
+153	[LOAD2 axis] encoder error occurs.
+154	[X-Y axis] over transfer time.
+155	[X axis] over transfer time.
+156	[Y axis] over transfer time
+157	[Z axis] over transfer time
+158	[R1 axis] over transfer time.
+159	[R2 axis] over transfer time
+162	[LOAD1 axis] over transfer time
+163	[LOAD2 axis] over transfer time
+164	[X-Y axis] over starting point return time.
+165	[X axis] over starting point return time.
+166	[Y axis] over starting point return time
+167	[Z axis] over starting point return time.
+168	[R1 axis] over starting point return time
+169	[R2 axis] over starting point return time.
+172	[LOAD1 axis] over starting point return time
+173	[LOAD2 axis] over starting point return time
+193	[Loader] Safety Error
+194	[Unloader] Safety Error
+199	[Unloader] No Magazine.
+200	No metrial on Pre-Heater.
+201	No metrial on Dispense-Heater.
+202	No metrial on Post-Heater.
+203	Dispense Heater Clamp On Error
+204	Dispense Heater Clamp Off Error
+205	Dispense Vacuum Error
+211	[In Buffer1]->[In Buffer2] PCB Moving Time Out.
+213	[Working1]->[Working2] PCB Moving Time Out.
+215	[Out Buffer1]->[Out Buffer2] PCB Moving Time Out.
+216	[Out Buffer2]->[Next Machine] PCB Moving Time Out.
+218	[In Buffer2] Block Up Error.
+220	[Working2] Block Up Error.
+222	[Out Buffer2] Block Up Error.
+224	[In Buffer2] Block Down Error.
+226	[Working2] Block Down Error.
+228	[Out Buffer2] Block Down Error.
+230	[In Buffer2] Stopper Off Error.
+232	[Working2] Stopper Off Error.
+234	[Out Buffer2] Stopper Off Error.
+236	[In Buffer2] Stopper On Error.
+238	[Working2] Stopper On Error.
+240	[Out Buffer2] Stopper On Error.
+242	[In Buffer2] Remove Strip.
